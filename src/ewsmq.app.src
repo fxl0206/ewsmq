@@ -1,0 +1,14 @@
+{application, ewsmq,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		              cowboy
+                 ]},
+  {mod, { ewsmq_app, []}},
+  {env, []}
+ ]}.
